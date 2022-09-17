@@ -1,0 +1,145 @@
+body {
+    background-color: #323128;
+    color: white;
+}
+
+section {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.glasses {
+    display: flex;
+    flex-direction: row;
+}
+
+.spacer {
+    margin: auto 0;
+    width: 200px;
+    height: 10px;
+    background-color: #201F15;
+}
+
+.glass{
+    position: relative;
+    height: 10vw;
+    width: 20vw;
+    background: rgba(184, 93, 54, 0.29);
+    border-radius: 40px;
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0px 0px 15px black;
+}
+
+.container {
+    position: relative;
+}
+
+h1 {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    margin: auto;
+    font-size: 5vw;
+}
+.sliders {
+    margin-top: 10%;
+}
+
+h2, #colorpicker {
+    margin-top: 3%;
+}
+
+.range_css {
+    -webkit-appearance: none;
+    width: 300px;
+    height: 1rem;
+    background: linear-gradient(to bottom, #B9A92C 10%, #AE9F4B);
+    cursor: ew-resize;
+    border-radius: 1.5rem;
+}
+
+.range_css::-ms-track {
+    height: 1.4rem;
+    border-radius: 1.5rem;
+    background: transparent;
+    border-color: transparent;
+    color: transparent;
+}
+
+.range_css::-ms-fill-lower {
+    height: 1.4rem;
+    border: 0 solid transparent;
+    background: linear-gradient(to bottom, #B9A92C 10%, #AE9F4B );
+    border-radius: 1.5rem;
+}
+
+.range_css::-ms-fill-upper {
+
+    background: linear-gradient(to bottom,  #B9A92C 10%, #AE9F4B );
+    border: 0 solid transparent;
+    border-radius: 1.5rem;
+}
+
+.range_css::-ms-thumb {
+    border: 1px solid #ddd;
+    width: .8rem;
+    background: white;
+    height: .8rem;
+    border-radius: 50%;
+    box-shadow: 0 0 .125rem #aaa;
+}
+
+.range_css::-ms-fill-lower,
+.range_css::-ms-fill-upper {
+    background: linear-gradient(to bottom,  #B9A92C 10%, #AE9F4B);
+}
+
+.range_css::-ms-tooltip {
+    display: none;
+}
+
+.range_css::-moz-range-thumb{
+    border: 1px solid #ddd;
+    width: 1.4rem;
+    height: 1.4rem;
+    border-radius: 50%;
+    box-shadow: 0 0 .125rem #aaa;
+}
+
+.range_css::-moz-range-track{
+    border: 3px solid transparent;
+    width: .5rem;
+    height: 1rem;
+    border-radius: 1.5rem;
+    background: none;
+
+}
+
+.range_css::-webkit-slider-thumb {
+
+    -webkit-appearance: none;
+    border: 3px solid #ddd;
+    width: 1.4rem;
+    height: 1.4rem;
+    border-radius: 50%;
+    background: white;
+    box-shadow: 0 0 .125rem #aaa;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
